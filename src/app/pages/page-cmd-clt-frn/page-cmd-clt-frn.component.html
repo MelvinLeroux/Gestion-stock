@@ -1,0 +1,50 @@
+<p>page-cmd-clt-frn works!</p>
+<div class="col">
+  <div class="row m-3">
+    <div class="col-md-8 p-0">
+      <h1>Commande client/fournisseur</h1>
+    </div>
+    <div class="col-md-4 text-end">
+      <app-bouton-action></app-bouton-action>
+    </div>
+  </div>
+  <div class="col m-3">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <app-detail-cmd-clt-frn></app-detail-cmd-clt-frn>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="max-height: 150px; overflow-y: scroll">
+          <div class="accordion-body">
+           <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+            <app-detail-cmd></app-detail-cmd>
+          </div>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-md-6 text-start"><h6>nombre d'articles</h6></div>
+              <div class="col-md-6 text-end"><h6>prix total</h6></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-12 text-center">
+        <app-pagination></app-pagination>
+      </div>
+    </div>
+  </div>
