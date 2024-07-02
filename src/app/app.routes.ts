@@ -6,6 +6,7 @@ import {PageStatistiquesComponent} from "./pages/page-statistiques/page-statisti
 import {PageArticleComponent} from "./pages/articles/page-article/page-article.component";
 import {NouvelArticleComponent} from "./pages/articles/nouvel-article/nouvel-article.component";
 import {PageMvmtstkComponent} from "./pages/mvmtstk/page-mvmtstk/page-mvmtstk.component";
+import {PageClientComponent} from "./pages/client/page-client/page-client.component";
 
 export const routes: Routes = [
   {
@@ -36,6 +37,10 @@ export const routes: Routes = [
       {
         path:'mvmtstk',
         component: PageMvmtstkComponent
+      },
+      {
+        path:'clients',
+        component: PageClientComponent
       }
     ]
   }
