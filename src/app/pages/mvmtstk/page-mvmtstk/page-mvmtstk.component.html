@@ -1,0 +1,42 @@
+<div class="col">
+  <div class="row m-3">
+    <div class="col-md-8 p-0">
+      <h1>Mouvement du stock</h1>
+    </div>
+    <div class="col-md-4 text-end">
+      <app-bouton-action></app-bouton-action>
+    </div>
+  </div>
+  <div class="col m-3">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <app-detail-mvmt-stk-article></app-detail-mvmt-stk-article>
+            </button>
+          </h2>
+        </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="max-height: 150px; overflow-y: scroll">
+          <div class="accordion-body">
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+            <app-detail-mvmt-stk></app-detail-mvmt-stk>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+    <div class="col-md-12 text-center">
+      <app-pagination></app-pagination>
+    </div>
+  </div>
+</div>
