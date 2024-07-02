@@ -58,13 +58,13 @@ export class MenuComponent  implements  OnInit{
       id: '3',
       titre:'Clients',
       icon:'fas fa-users',
-      url:'',
+      url:'clients',
       sousMenu: [
         {
           id:'31',
           titre:'Clients',
           icon:'fas fa-users',
-          url: '',
+          url: 'clients',
         },
         {
           id:'32',
